@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    color: white;
+}
+
+@font-face {
+    font-family: General Sans;
+    src: url(./assets/GeneralSans-Regular.otf);
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+    
+    padding: 0 2rem;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#nav{
+    display: flex;
+    /* border: 2px solid white; */
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+#nav>a{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#intro{
+    font-size: 4vw;
+    margin-top: 60px;
+    margin-left: 20px;
+    opacity: .6;
+    text-transform: uppercase;
+}
+
+#intro .introSec{
+    width: fit-content;
+}
+
+.introSec>:nth-child(2){
+    padding-left: 100px;
+}
+
+.introSec>:nth-child(3){
+    text-align: end;
+}
+
+.introSec>p{
+    font-size: 1.5vw;
+    text-align: end;
+}
+
+#subIntro{
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: end;
+    line-height: 2;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+#lastIntro{
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: 600;
+    margin-top: 8px;
+    
+    
+}
+
+#icons{
+    display: flex;
+    
+}
+.rounded{
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+
+
+
+
+
