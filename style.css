@@ -17,6 +17,18 @@
     
     padding: 0 2rem;
 }
+
+#miniCircle{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    z-index: 99999;
+    border-radius: 50px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    transition: all .1s;
+}
 #hero{
     width: 100%;
     height: 100vh;
@@ -82,8 +94,9 @@
 #lastIntro{
     display: flex;
     justify-content: space-between;
+    letter-spacing: 1px;
     
-    font-weight: 600;
+    font-weight:semi-bold;
     margin-top: 8px;
     
     
@@ -92,11 +105,181 @@
 #icons{
     display: flex;
     
+    gap: .5rem;
+    
+    
 }
 .rounded{
     border: 2px solid white;
     border-radius: 25px;
 }
+.secondSec{
+    width: 95%;
+    padding-top: 9rem;
+}
+.second{
+    position: relative;
+    
+    color: white;
+    border-top: 2px solid #888;
+    display: flex;
+    padding: 4rem;
+    padding-left: 4px;
+    padding-right: 0;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.second>h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+
+
+#last{
+    border-bottom:2px solid #888;
+}
+
+.second>img{
+    display: none;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+
+}
+#about{
+    padding-top: 4rem;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 17vw 10vw;
+    
+    
+    padding-left: 29vw;
+    
+    /* padding: 12vw 28vw; */
+}
+
+
+
+#about>img{
+    width: 16rem;
+    /* margin-bottom: 14px; */
+
+
+}
+
+.texts{
+    width: 30rem;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid white; */
+    
+    /* border: 2px solid red; */
+}
+.texts>span{
+    opacity: .6;
+    
+
+}
+
+.texts>p{
+    line-height: 1.4    ;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.texts>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-self: start;
+    padding: 8px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: fff;
+    font-size: .8rem;
+}
+
+.ytlink{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.ytlink>:first-child{
+    font-size: .9rem;
+    opacity: .6;
+
+}
+
+footer{
+    padding-top: 10vw;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+footer>.left{
+    display: flex;
+    gap: 2rem;
+   
+}
+footer>.right{
+    display: flex;
+    gap: 2rem;
+   
+}
+
+.blockText{
+    /* background: red; */
+    display: flex;
+
+    flex-direction: column;
+    align-items: end;
+
+}
+.blockText>.boundary>p{
+     font-size: 1.5vw;
+    text-align: end;
+}
+.boundary{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.boundaryElem{
+    transform: translateY(100%);
+}
+#subIntro{
+
+    display: flex;
+    align-items: end;
+}
+.subIntroboundary{
+    display: flex;
+    
+    
+    flex-direction: column;
+    justify-content: flex-end;
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
 
 
 
